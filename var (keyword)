@@ -1,0 +1,6 @@
+fun main() {
+    var name="Rishabh Bansal"                           //Assign and Change value as need
+    println("Hi! "+name+" Welcome you is Here :)")
+    var a=10
+    println(a)
+}
