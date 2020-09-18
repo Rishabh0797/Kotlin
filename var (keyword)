@@ -1,6 +1,6 @@
 fun main() {
-    var name="Rishabh Bansal"                           //Assign and Change value as need
-    println("Hi! "+name+" Welcome you is Here :)")
-    var a=10
+    var a="Rishabh Bansal"                           //Assign and Change value(Same Datatype) as need
+    println("Hi! "+a+" Welcome you is Here :)")
+     a="rishabh0797"
     println(a)
 }
