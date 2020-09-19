@@ -1,0 +1,6 @@
+fun main() {
+    val a="Rishabh Bansal"                           //Assign and Cannot change value(Same Datatype) as need
+    println("Hi! "+a+" Welcome you is Here :)")
+     //a="rishabh0797"                               here it is comment, otherwise it will give an error
+    println(a)
+}
