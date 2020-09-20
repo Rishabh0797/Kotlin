@@ -1,0 +1,14 @@
+fun main() {
+    var a: Int = 5                   //also supports Short, Byte and Long
+    var b: String = "Hello! Kotlin" 
+    var c: Float = 1.1234567f        //also supports Double
+    var d: Boolean = 1<4
+    
+    println("Integer :  "+a)
+    println("String :  "+b)
+    
+    println("Float :  $c")         //Using String Templates
+    println("Boolean :  $d")   
+}                                     
+
+                               //Moreover you not need to Explicit tell the datatype, the compiler will automatically analyse its datatype in Kotlin
