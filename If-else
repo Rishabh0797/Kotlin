@@ -1,0 +1,25 @@
+fun main() {
+    var age : Int = 17;
+    if(age>=18)
+    {
+        println("You can vote")
+    }
+    else 
+    {
+        println("Play with friend")
+    }
+    
+    
+    
+    var value : Int = if(true)
+    {
+        println("Hello! ")
+        10
+    }
+    else
+    {
+        20
+    }
+    
+    println(value)
+}
