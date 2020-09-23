@@ -1,0 +1,17 @@
+fun main()
+{
+    var name = "Rishabh"
+    
+    when(name){
+        
+        "Rishabh"->{
+            println("Welcome $name")
+        }
+        "Bansal"->{
+            println("Hi! $name")
+        }
+        else->{
+            println("Regards")
+        }
+        
+    }
