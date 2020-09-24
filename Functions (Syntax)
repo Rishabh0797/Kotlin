@@ -1,0 +1,29 @@
+fun main()
+{
+    var a:Int =10
+    var b:Int =20
+    println("Addition    : "+add(a,b))
+    println("Subtraction : "+sub(a,b))
+    println("Multiply    : "+multi(a,b))
+    println("Divide      : "+div(a,b))
+    
+}
+
+fun add(x:Int,y:Int):Any{           //Here return type is "Any" which means it can return any(Int,String,Boolean....etc) datatype
+    return(x+y)
+}
+
+fun sub(x:Int,y:Int):Int{
+    return(x-y)
+}
+
+fun multi(x:Int,y:Int):Any{
+      return(x*y)
+}
+
+fun div(x:Int,y:Int):Int{
+    if(x>y)
+     return(x/y) 
+    else 
+     return(y/x)
+}
