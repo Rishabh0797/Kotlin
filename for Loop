@@ -1,0 +1,9 @@
+fun main()
+{
+    var Colour = listOf("Red","Blue","Green","Black","White")
+    
+    for(a in Colour)
+    {
+        println("Colour is $a")
+    }
+}
