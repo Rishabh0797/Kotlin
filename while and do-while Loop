@@ -1,0 +1,21 @@
+fun main()
+{
+    var a:Int =10
+    var b:Int =20
+    
+  println("a before while $a")
+  
+  while(b>a)   //checks the condition and execute
+    {
+        a++
+    }
+    
+    println("a after while $a \n")
+    
+    do{
+       println("a before do-while $a")       //it one time execute the statement and the checks the condition
+        a++
+    }while(b>a)
+    
+    println("a after do-while $a")
+}
