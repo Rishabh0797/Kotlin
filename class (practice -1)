@@ -1,0 +1,11 @@
+  class Student(val roll_num : Int,var name :String)
+
+fun main()
+{
+    var a=Student(1,"Rishabh Bansal")
+    
+    print(a.roll_num)
+    print("  ")
+    print(a.name)
+    
+}
