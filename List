@@ -1,0 +1,24 @@
+fun main()
+{
+    var Colour = listOf("Red","Blue","Green","Black","White",5)
+    
+    // Colour[0]="Voilet"  // listof is immutable
+    
+    for(a in Colour)
+    {
+        println("Colour is $a")
+    }
+    
+    // var Colour = listOf<String>("Red","Blue","Green","Black","White",5)  //error because DataType is defined
+    
+    println()
+    
+    var Colour1 = mutableListOf("Red","Blue","Green","Black","White")
+    
+    Colour1[0]="Voilet"  
+    
+    for(a in Colour1)
+    {
+        println("Colour is $a")
+    }
+}
