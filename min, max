@@ -1,0 +1,10 @@
+fun main()
+{
+    var Colour = listOf(34,12,6,56,89,34,98)
+    
+    println("Max of Colour$Colour = ${Colour.max()}")
+    println("Min of Colour$Colour = ${Colour.min()}")
+   
+    
+    
+}
