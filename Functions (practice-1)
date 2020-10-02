@@ -1,0 +1,11 @@
+fun main()
+{
+    println(greetings())
+    println(greetings(name="Nonu"))                  // 
+    println(greetings(greet="Good Evening :) :)"))
+}
+
+fun greetings(greet:String="Have a nice day!",name:String="Rishabh"):String
+{
+    return "Hello $name, $greet"
+}
