@@ -1,0 +1,7 @@
+fun main()
+{
+    var a=listOf(23,54,23,98,46,74,9,64,90)
+    println(a)
+    println()
+    println(a.sorted())
+}
