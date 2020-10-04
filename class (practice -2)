@@ -1,0 +1,19 @@
+fun main()
+{
+    
+    val firstdice = Dice()
+    var diceRoll=firstdice.roll()
+    println("Your ${firstdice.side} sided dice rolled ${diceRoll}!")
+}
+
+class Dice
+{
+    var side=6
+
+    fun roll():Int
+    {
+        val dice_roll : IntRange = 1..6
+        return dice_roll.random()
+        
+    }
+}
