@@ -1,0 +1,14 @@
+fun main()
+{
+    var per = person("Rishabh")
+    print(per.a)
+}
+
+class person constructor(name : String)
+{
+    var a:String
+    init
+    {
+        a=name   
+    }
+}
