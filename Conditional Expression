@@ -1,0 +1,7 @@
+fun main()
+{
+    val a = 4
+    val b = 5
+    
+    if(a>b)print("a is greater")else print("b is greater")
+}
