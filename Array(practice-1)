@@ -1,0 +1,10 @@
+fun main() 
+{ 
+   
+    var arrayname = arrayOf<String>("A","B","C","D") 
+    for (i in 0..arrayname.size-1) 
+    { 
+        print(" "+arrayname[i]) 
+    } 
+    
+} 
