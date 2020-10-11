@@ -1,0 +1,10 @@
+fun main() 
+{ 
+   
+    var a = "Rishabh"
+    for(i in 0..a.length-1)
+    {
+        println(a[i])
+    }
+    
+}
