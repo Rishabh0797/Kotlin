@@ -1,0 +1,13 @@
+fun main()
+{
+    var s =10
+    
+    if(s%2==0)
+    {
+        println("It is even Number")
+    }
+    else
+    {
+        println("It is odd Number")
+    }
+}
