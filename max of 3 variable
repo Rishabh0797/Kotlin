@@ -1,0 +1,28 @@
+fun main() {
+    var a=1000
+    var b=200
+    var c=30
+    if(a>b)
+    {
+        if(a>c)
+        {
+            println("a ie $a is greatest")
+        }
+        else
+        {
+            println("c ie $c is greatest")
+        }
+    }
+    else
+    {
+        if(b>c)
+        {
+            println("b ie $b is greatest")
+        }
+        else
+        {
+            println("c ie $c is greatest")
+        }
+    }
+    
+}
