@@ -1,0 +1,30 @@
+fun main()
+{
+    var a = arrayOf<Any>(1,2,3,4,5,6,7,8,"rishabh")
+    var j=a.size-1
+    
+    print("Original array : ")
+    for(i in 0..(a.size-1))
+    {
+        print(a[i])
+        print(" ")
+    }
+    
+    for(i in 0..(a.size-1)/2)
+    {
+        var temp:Any=a[i]
+        a[i]=a[j]
+        a[j]=temp
+        j--
+    }
+    
+    println()
+    print("Reversed array : ")
+    for(i in 0..(a.size-1))
+    {
+        print(a[i])
+        print(" ")
+    }
+    
+    
+}
