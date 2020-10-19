@@ -1,0 +1,22 @@
+fun main()
+{
+    var a = arrayOf<Int>(2,4,7,9,8,6,5,3,1)
+    var K_num=3                             //K largest number to be search 
+   
+    var x = a.size-3
+    
+    print("Our array : ")
+    for(i in 0..(a.size-1))
+    {
+        print("${a[i]} ")
+    }
+    println()
+    a.sort()
+    print("Sorted array : ")
+   for(i in 0..(a.size-1))
+    {
+        print("${a[i]} ")
+    }
+    println()
+    println("${K_num} largest number is : ${a[x]} ")
+   }
